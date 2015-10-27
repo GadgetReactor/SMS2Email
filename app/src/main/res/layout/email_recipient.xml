@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+
+    android:columnCount="4"
+    >
+
+    <TextView
+        android:text="Forward Email Details"
+        android:textSize="20dip"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_columnSpan="4"
+        android:layout_gravity="left"
+        />
+
+    <TextView
+        android:text="Forward To:"
+        android:id="@+id/userfield"
+        android:hint="Email of Recipient"
+        android:layout_gravity="left"
+        />
+
+    <EditText
+        android:id="@+id/fwdemail"
+        android:ems="10"
+        />
+
+    <TextView
+        android:text="Display Name:"
+
+        android:layout_column="0"
+        android:layout_gravity="left"
+        />
+
+    <EditText
+        android:id="@+id/dispname"
+        android:ems="10"
+        />
+
+    <TextView
+        android:text="Display Email:"
+
+        android:layout_column="0"
+        android:layout_gravity="left"
+        />
+
+    <EditText
+        android:id="@+id/dispemail"
+        android:ems="10"
+        />
+
+    <Space
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:text="Save"
+        android:onClick="onClick3"
+        android:layout_row="5"
+        android:layout_column="3"
+        android:minWidth="128dip"
+        />
+</GridLayout>

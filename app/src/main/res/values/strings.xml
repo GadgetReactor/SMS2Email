@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">SMS2Email</string>
+    <string name="title_section3">Recipient</string>
+    <string name="title_section2">Settings</string>
+    <string name="title_section1">Status</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SMS2Email</string>
+    <string name="button_activate">Start</string>
+
+</resources>
